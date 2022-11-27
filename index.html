@@ -10,17 +10,14 @@
     <!--CSS-->
     <link rel="stylesheet" href="./style.css">
 
-    <!--JS-->
-    <script src="./app.js"></script>
-
 </head>
 <body>
 
 <div class="box">
     <h2>Random Number Generator</h2>
-        <button type="button" id="rollButton" onclick="randomNumber()">GO</button>
+        <button type="button" id="rollButton" onclick="randomNumber(1,100)">GO</button>
             <div class="result">
-                <h3>Number here?</h3>
+                <span id="resultNumber"></span>
             </div>
 
 </div>
